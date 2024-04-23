@@ -18,10 +18,12 @@ function App() {
 
             } catch (error) {
                 console.error('Ошибка при получении данных:', error);
+                console.log(sortBy)
             }
         };
 
         fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [refreshData]);
     // Логика сортировки
     const sortData = (key: string) => {
