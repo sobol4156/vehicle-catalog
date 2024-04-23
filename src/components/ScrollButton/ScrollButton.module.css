@@ -1,0 +1,11 @@
+.btn{
+    position: fixed;
+    
+    bottom: 40px; /* Отступ от нижней границы экрана */
+    right: 20px; /* Отступ от правой границы экрана */
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 80px;
+    height: 80px;
+}

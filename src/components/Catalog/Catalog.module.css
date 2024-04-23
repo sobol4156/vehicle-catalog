@@ -1,0 +1,26 @@
+
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .vehicleList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vehicleItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .vehicleItem p {
+    margin: 5px 0;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-around;
+    
+  }
